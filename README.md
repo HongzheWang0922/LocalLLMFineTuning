@@ -1,4 +1,4 @@
-# SoulChat - 心理健康领域微调对话模型
+# 心理健康领域微调对话模型
 # 项目概述
 
 本项目旨在通过微调 LLaMA 模型来生成心理学领域的问答系统，具体包括焦虑症、抑郁症、PTSD、认知行为疗法等话题。项目通过对比微调前后模型的表现，以验证微调对模型回答质量的提升。
@@ -9,6 +9,10 @@
 - **Torch**：深度学习框架，支持 GPU 加速。
 - **PEFT (Parameter Efficient Fine-Tuning)**：用于优化微调过程，应用 LoRA技术，降低计算资源需求。
 - **Huggingface Datasets**：用于加载和处理数据集。## 微调过程
+
+## 微调数据集
+
+-数据来源为灵心大模型所提供的开源数据，地址：https://www.modelscope.cn/datasets/YIRONGCHEN/SoulChatCorpus
 
 ### 1. 数据预处理
 
